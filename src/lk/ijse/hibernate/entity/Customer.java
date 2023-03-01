@@ -2,6 +2,7 @@ package lk.ijse.hibernate.entity;
 
 public class Customer {
 
+
     private String id;
     private String name;
     private String address;
