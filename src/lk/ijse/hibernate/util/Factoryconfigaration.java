@@ -1,5 +1,6 @@
 package lk.ijse.hibernate.util;
 
+import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
 
@@ -20,5 +21,8 @@ public class Factoryconfigaration {
                 factoryconfigaration;
     }
 
+    public Session getsession(){
+        return sessionFactory.openSession();
+    }
 
 }
